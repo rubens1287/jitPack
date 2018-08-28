@@ -1,0 +1,92 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23323597521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Cenario Template",
+        "description": "",
+        "id": "funcionalidade-template;cenario-template",
+        "after": [
+          {
+            "result": {
+              "duration": 1532196183,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46008713447,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Precondicao",
+            "match": {
+              "location": "BaseSteps.precondicao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 26912495493,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Acao",
+            "match": {
+              "location": "BaseSteps.acao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2746030769,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validacao",
+            "match": {
+              "location": "BaseSteps.validacao()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CIELO"
+          }
+        ]
+      }
+    ],
+    "name": "Funcionalidade Template",
+    "description": "Descrição breve da funcionalidade\r\nEu como \u003coperador\u003e devo ser capaz de fazer algo",
+    "id": "funcionalidade-template",
+    "keyword": "Funcionalidade",
+    "uri": "Seu-Nome-Projeto.feature"
+  }
+]
